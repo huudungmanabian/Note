@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Note">
         <activity
-            android:name=".CreateNote"
+            android:name=".CreateEditNote"
             android:exported="false"
             android:parentActivityName=".MainActivity">
             <meta-data
@@ -23,7 +23,6 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
